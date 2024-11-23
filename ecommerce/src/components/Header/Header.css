@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+.nav-links li{
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li:hover{
+    color: #ff6200;
+}
+
+.header-icons i{
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.header-icons i:hover{
+    color: #ff6200;
+}
